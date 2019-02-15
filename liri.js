@@ -27,9 +27,9 @@ let keys = require("./keys.js"),
             doThis(commandInfo);
             break;
         default:
-            console.log("I don't know what you mean by that, please check the documentation.");
+            console.log("I don't understand your request, please enter a valid command.");
             logIt(userCommand + ' ' + commandInfo);
-            logIt("I don't know what you mean by that, please check the documentation.");
+            logIt("I don't understand your request, please enter a valid command.");
             break;
     }
 }
